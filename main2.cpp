@@ -5,11 +5,11 @@
 
 int main()
 {
-    unsigned int x;
-    std::cout << "Здравствуйте!\nВведите x=";
-    std::cin>>x;
-    std::cout << "x=" <<x <<std::endl;
-    double Otvet2= abs(x-1) + 4*sqrt(abs(x-3));
+    unsigned int a;
+    std::cout << "Здравствуйте!\nВведите a=";
+    std::cin>>a;
+    std::cout << "a=" <<a <<std::endl;
+    double Otvet2= abs(a-1) + 4*sqrt(abs(a-3));
     std::cout << "Задача 2: " << std::fixed << std::setprecision(3) << Otvet2 <<"\n";
 }
 
